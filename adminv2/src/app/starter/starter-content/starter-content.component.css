@@ -1,0 +1,31 @@
+.box-header {
+  padding: 5px;
+}
+
+.box-footer {
+  padding: 0px;
+}
+
+.pagination {
+  margin: 10px;
+}
+
+.box {
+  margin-bottom: 0px;
+}
+
+.span-icon {
+width: 40px;
+}
+
+.color-grey {
+  color: #999;
+}
+
+.padding-right-zero {
+  padding-right: 0px;
+}
+
+.item {
+  padding: 5px;
+}

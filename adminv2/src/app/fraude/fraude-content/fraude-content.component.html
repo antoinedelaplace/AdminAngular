@@ -1,0 +1,265 @@
+<div class="content-wrapper" id="main_content">
+  <!-- Main content -->
+  <section class="content">
+      <!-- info row -->
+      <div class="row">
+        <div class="col-sm-7">
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab_1" data-toggle="tab" aria-expanded="false">Infos</a></li>
+              <li class=""><a href="#tab_2" data-toggle="tab" aria-expanded="false">Client</a></li>
+              <li class=""><a href="#tab_3" data-toggle="tab" aria-expanded="true">Commercant</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_1">
+                <div>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tbody>
+                      <tr>
+                        <th style="width:50%">PAN</th>
+                        <td>6271414000073181</td>
+                      </tr>
+                      <tr>
+                        <th>Montant:</th>
+                        <td>92 050 <i class="fa fa-euro"></i></td>
+                      </tr>
+                      <tr>
+                        <th>Pays d'origine:</th>
+                        <td>FRANCE</td>
+                      </tr>
+                      <tr>
+                        <th>Code Banque:</th>
+                        <td>4092</td>
+                      </tr>
+                      <tr>
+                        <th>Banque:</th>
+                        <td>Société Générale</td>
+                      </tr>
+                      <tr>
+                        <th>Type de transaction :</th>
+                        <td>Achat</td>
+                      </tr>
+                      <tr>
+                        <th>Méthodes de paiement:</th>
+                        <td><img src="../../../assets/img/credit/paypal2.png" alt="Paypal"></td>
+                      </tr>
+                      </tbody></table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3>FNAC Paris<a href="https://www.fnac.com/Paris-Champs-Elysees/Fnac-Champs-Elysees/cl76/w-4"><i class="fa fa-info-circle margin-left-3"></i></a></h3>
+                    <div><b>Code marchand :</b> 12346752</div>
+                    <div><b>Type de marchand :</b> Revendeur</div>
+                    <div><b>Localisation :</b> Paris - France</div>
+                  </div>
+                  <div class="col-sm-6">
+                    <agm-map [latitude]="lat" [longitude]="lng">
+                      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                    </agm-map>
+                  </div>
+                </div>
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_2">
+                <div class="row margin-bottom-10">
+                  <div class="col-sm-12">
+                    <button type="button" class="btn btn-success pull-right">
+                      <i class="fa fa-phone"></i> Appeler
+                    </button>
+                    <button type="button" class="btn btn-warning pull-right" style="margin-right: 5px;">
+                      <i class="fa fa-envelope"></i> Mail
+                    </button>
+                    <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+                      <i class="fa fa-bell-o"></i> Message Auto
+                    </button>
+                    <button type="button" class="btn btn-danger pull-right" style="margin-right: 5px;">
+                      <i class="fa fa-close"></i> Bloquer
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tbody><tr>
+                        <th style="width:30%">Client</th>
+                        <td>John Doe</td>
+                      </tr>
+                      <tr>
+                        <th>Adresse:</th>
+                        <td>13 rue de Paris </td>
+                      </tr>
+                      <tr>
+                        <th>Téléphone:</th>
+                        <td>0323317938</td>
+                      </tr>
+                      <tr>
+                        <th>Mail:</th>
+                        <td>test@gmail.com</td>
+                      </tr>
+                      </tbody></table>
+                  </div>
+                </div>
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_3">
+                <div class="row margin-bottom-10">
+                  <div class="col-sm-12">
+                    <button type="button" class="btn btn-success pull-right">
+                      <i class="fa fa-phone"></i> Appeler
+                    </button>
+                    <button type="button" class="btn btn-warning pull-right" style="margin-right: 5px;">
+                      <i class="fa fa-envelope"></i> Mail
+                    </button>
+                    <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+                      <i class="fa fa-bell-o"></i> Message Auto
+                    </button>
+                    <button type="button" class="btn btn-danger pull-right" style="margin-right: 5px;">
+                      <i class="fa fa-close"></i> Bloquer
+                    </button>
+                  </div>
+                </div>
+                <div class="box box-danger">
+                  <div class="box-header">
+                    <h3 class="box-title">Historique des fraudes</h3>
+                  </div>
+                  <!-- /.box-header -->
+                  <div class="box-body table-responsive no-padding">
+                    <table class="table table-hover">
+                      <tbody><tr>
+                        <th>Client</th>
+                        <th>Date</th>
+                        <th>Raison</th>
+                      </tr>
+                      <tr>
+                        <td>John Doe</td>
+                        <td>14-7-2014</td>
+                        <td>Terminal ID within risk-termina table</td>
+                      </tr>
+                      <tr>
+                        <td>Alexandre Doe</td>
+                        <td>13-7-2014</td>
+                        <td>PAN within risky PAN table</td>
+                      </tr>
+                      <tr>
+                        <td>Bob Doe</td>
+                        <td>12-7-2014</td>
+                        <td>MCC within Risky Merchant Table</td>
+                      </tr>
+                      <tr>
+                        <td>Mike Doe</td>
+                        <td>11-7-2014</td>
+                        <td>Total numer of payment or retraits in last 24h > YY</td>
+                      </tr>
+                      </tbody></table>
+                  </div>
+                  <!-- /.box-body -->
+                </div>
+              </div>
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-sm-5">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <div class="progress-group">
+                <span class="progress-text">Risques</span>
+                <span class="progress-number"><b>92</b>/100</span>
+                <div class="progress sm">
+                  <div class="progress-bar progress-bar-red" style="width: 92%"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="progress-group">
+                    <span class="progress-text"><i class="fa fa-user fa-margin"></i>Client</span>
+                    <span class="progress-number"><b>30</b>/100</span>
+                    <div class="progress sm">
+                      <div class="progress-bar progress-bar-green" style="width: 30%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="progress-group">
+                    <span class="progress-text"><i class="fa fa-shopping-cart fa-margin"></i>Marchand</span>
+                    <span class="progress-number"><b>70</b>/100</span>
+                    <div class="progress sm">
+                      <div class="progress-bar progress-bar-yellow" style="width: 70%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <ul class="products-list product-list-in-box">
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 1</a>
+                    <span class="label label-danger pull-right">100%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 2</a>
+                    <span class="label label-danger pull-right">100%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 3</a>
+                    <span class="label label-danger pull-right">100%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 4</a>
+                    <span class="label label-warning pull-right">75%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 5</a>
+                    <span class="label label-warning pull-right">70%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 6</a>
+                    <span class="label label-primary pull-right">50%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 7</a>
+                    <span class="label label-primary pull-right">45%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 8</a>
+                    <span class="label label-primary pull-right">40%</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="product-info">
+                    <a routerLink="/dashboard">Cas 9</a>
+                    <span class="label label-primary pull-right">35%</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- ./box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+  </section>
+  <!-- /.content -->
+</div>
