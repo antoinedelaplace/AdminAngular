@@ -1,0 +1,90 @@
+<div class="content-wrapper" id="main_content">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Cas de fraudes
+      <small>Dernières alertes</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li class="active"><i class="fa fa-dashboard"></i> Fraudes</li>
+    </ol>
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="box box-info">
+      <!-- /.box-header -->
+      <div class="box-body">
+        <div class="table-responsive">
+          <table class="table no-margin">
+            <thead>
+            <tr>
+              <th>Transaction ID</th>
+              <th>Marchand</th>
+              <th>Catégorie</th>
+              <th>Score</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><a routerLink="/fraude">6271414000073181</a></td>
+              <td>Societe Generale Reims</td>
+              <td><span class="label label-success">OK</span></td>
+              <td>
+                  <small class="pull-right">40%</small>
+                  <div class="progress xs">
+                    <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                      <span class="sr-only">40% Complete</span>
+                    </div>
+                  </div>
+              </td>
+            </tr>
+            <tr>
+              <td><a routerLink="/fraude">6271414000073223</a></td>
+              <td>FNAC Paris</td>
+              <td><span class="label label-success">OK</span></td>
+              <td>
+                <small class="pull-right">60%</small>
+                <div class="progress xs">
+                  <div class="progress-bar progress-bar-yellow" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <span class="sr-only">60% Complete</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><a routerLink="/fraude">6271414000073579</a></td>
+              <td>Stade de Reims</td>
+              <td><span class="label label-danger">Risque</span></td>
+              <td>
+                <small class="pull-right">90%</small>
+                <div class="progress xs">
+                  <div class="progress-bar progress-bar-red" style="width: 90%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <span class="sr-only">90% Complete</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><a routerLink="/fraude">6271414000075574</a></td>
+              <td>Cdiscount</td>
+              <td><span class="label label-success">OK</span></td>
+              <td>
+                <small class="pull-right">10%</small>
+                <div class="progress xs">
+                  <div class="progress-bar progress-bar-aqua" style="width: 10%" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                    <span class="sr-only">10% Complete</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- /.table-responsive -->
+      </div>
+    </div>
+
+  </section>
+  <!-- /.content -->
+</div>
